@@ -15,8 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: roboto;
-    
+    font-family: roboto; 
 }
 
 html{
@@ -36,7 +35,7 @@ body{
     background: #1b2229;
 }
 
-
+/*navbar*/
 
 header{
     width:100%;
@@ -83,20 +82,10 @@ header .navbar ul li a:hover
     display: none;
 }
 
+/*navbar*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*homepage*/
 
 .home{
     min-height: 100vh;
@@ -160,6 +149,11 @@ header .navbar ul li a:hover
     z-index: 0;
     box-shadow: .5px 1px 2px 0;
 }
+
+/*homepage*/
+
+/*card*/
+
 .card{
     min-height: 70vh;
 }
@@ -260,10 +254,17 @@ header .navbar ul li a:hover
     
 }
 
+/*card*/
 
 
 
 
+
+
+
+
+
+/*mobile view*/
 
 @media (max-width:930px){
 
